@@ -1,0 +1,50 @@
+Why learn C?
+------------
+- Widely used portable high level programming language
+- Let's one program closer to the metal
+- Increasingly important for embedded programming
+- Many languages have a C pedigree
+
+C's origins
+-----------
+- Originally developed in 1972 by Dennis Ritchie at Bell Labs
+
+
+--> C is an imperative(procedural) language
+--> All code has to be inside a function
+--> C files are the source code of the program
+--> C files use a compiler to create an executable files
+
+Comments - /* */
+         - Do not nest
+
+DATA TYPES
+-----------
+
+char - 1 byte
+unsigned char - 1 byte
+short - 2 bytes
+unsigned short - 2 bytes
+int - 4 bytes
+unsigned int - 4 bytes
+long - 8 bytes
+unsigned long - 8 bytes
+
+DECLARATION
+-----------
+Names of variables : [a-zA-z_][a-zA-Z_0-9]*
+
+Syntax:
+type var_name;
+
+#include <stdio.h> /*Include's a "header" file that defines input/output routines used by our program*/
+
+int main(void) /*The entry point of the program*/
+{
+    printf("Hello World!\n");/*prints to standard output*/
+    return 0;
+}
+
+sizeof() operator - used to determine the amount of size any intrinsic type, union or struct takes in bytes.
+
+

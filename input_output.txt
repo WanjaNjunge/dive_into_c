@@ -1,0 +1,40 @@
+- C defines a library of functions that support integration with standard input/output
+
+getchar() - reading input
+-------------------------
+
+Synopsis:
+    int getchar(void);
+
+--> Reads the next character from standard input(if available)
+
+--> Returns EOF when end of file or error conditions are encountered.
+
+putchar() - writing output
+--------------------------
+
+Synopsis:
+    int putchar(int c);
+
+--> Writes the character c (converted to an unsigned char) to standard output.
+
+--> Returns the character that was written
+
+Formatted Output
+----------------
+- printf() displays formatted output to stdout
+
+Syntax:
+    printf(format_str, arg1,arg2, ...);
+    -arguments are the variables to be printed
+    -format string tells printf() how to display these arguments
+
+Formatted Input
+----------------
+
+- scanf() reads formatted input from standard input.
+
+Syntax:
+    scanf(format_str, &arg1, &arg2, ...);
+    - arguments are the addresses of variables that will store the read values
+    - format string tells scanf() how the input is formatted.

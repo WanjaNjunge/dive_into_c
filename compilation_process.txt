@@ -1,0 +1,22 @@
+
+
+        Preprocesssor <----- Source code(.c file)
+            |
+            |
+            |
+        Compiler
+            |
+            |--> Assembly code
+                    |
+                    |
+        Assembler<--
+            |
+            |--> Object code + Libraries
+                    |
+                    |
+        Linker <----
+            |
+            |
+        Executable file
+
+Preprocesssor - Removes comments and includes header files in source code. Replaces macro name with code.
