@@ -20,3 +20,15 @@
         Executable file
 
 Preprocesssor - Removes comments and includes header files in source code. Replaces macro name with code.
+
+gcc -E source.c -o preprocessed_file.i -> runs only the preprocessor, and the preprocessed code will be saved in preprocessed_file.i.
+
+gcc -S source.c -o assembly_file.s
+ -> runs the preprocessor and compiler, producing assembly code. The assembly code will be saved in assembly_file.s.
+
+gcc -c source.c -o object_file.o -> runs the preprocessor, compiler, and assembler, producing an object file. The object file will be saved in object_file.o.
+
+gcc source.c -o executable_file
+ -> completes the compilation process, including preprocessing, compiling, assembling, and linking. The final executable file will be saved in executable_file.
+
+
